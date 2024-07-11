@@ -2,11 +2,9 @@
 
 1. Data model
 
-   • Users database (id, email, name, blog/s, admin)
+   • Users database (userid, email, username, posts, admin)
    
-   • Blogs database (id, owner/s, posts)
-   
-   • Posts database (id, blog, author, title, content)
+   • Posts database (postid, title, content, userid, username)
 2. Controllers
 3. Database
 4. Validation
