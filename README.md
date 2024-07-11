@@ -1,7 +1,8 @@
-# blog-test
+# The Blog Planet
 
-User database (id, email, name, blog, admin)
-Blog database (id, owner, posts)
+Users database (id, email, name, blog/s, admin)
+Blogs database (id, owner/s, posts)
+Posts database (id, blog, author, content)
 
 Validation (requirement/restriction) for email, name, posts
 
