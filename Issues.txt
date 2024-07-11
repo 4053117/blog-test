@@ -1,5 +1,0 @@
-Added admin bit to users table (1 for admins)
-(Currently only a placeholder, need to implement admin functionality)
-
-Connect users to blog, blog to posts (inherent in the database schema, need to test implementation)
-(Restrict to one owner per blog for now)
