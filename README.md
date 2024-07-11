@@ -6,7 +6,7 @@
    
    • Blogs database (id, owner/s, posts)
    
-   • Posts database (id, blog, author, content)
+   • Posts database (id, blog, author, title, content)
 2. Controllers
 3. Database
 4. Validation

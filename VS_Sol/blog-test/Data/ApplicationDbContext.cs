@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using blog_test.Models;
 
 namespace blog_test.Data
 {
@@ -9,5 +10,7 @@ namespace blog_test.Data
             : base(options)
         {
         }
+        public DbSet<blog_test.Models.Blog> Blog { get; set; } = default!;
+        public DbSet<blog_test.Models.Post> Post { get; set; } = default!;
     }
 }
