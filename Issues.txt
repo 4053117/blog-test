@@ -1,4 +1,5 @@
-Migrations > AspNetUsers Table fields (Added admin bit, 1 for admins)s
-Connect users to blog, blog to posts
+Added admin bit to users table (1 for admins)
+(Currently only a placeholder, need to implement admin functionality)
 
-Have to restrict to one user per blog
+Connect users to blog, blog to posts (inherent in the database schema, need to test implementation)
+(Restrict to one owner per blog for now)
