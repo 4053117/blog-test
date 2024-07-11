@@ -4,9 +4,9 @@
     {
         public int BlogId { get; set; }
 
-        public int OwnersId { get; set; }
+        public int OwnerId { get; set; }
 
-        public int PostsId { get; set; }
+        public int PostId { get; set; }
 
         public Blog()
         {
