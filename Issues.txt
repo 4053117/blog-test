@@ -4,6 +4,6 @@ Added admin bit to users table (1 for admins)
 Connect users to blog, blog to posts (inherent in the database schema, need to test implementation)
 (Restrict to one owner per blog for now)
 
-Write a post form (make fields textarea, change error text)
+Write a post form (BROKEN (Make UserId and UserName auto-set), make fields textarea, change error text)
 
 Search form (make search more flexible (order not required))
