@@ -1,0 +1,4 @@
+Migrations > AspNetUsers Table fields (Added admin bit, 1 for admins)s
+Connect users to blog, blog to posts
+
+Have to restrict to one user per blog
