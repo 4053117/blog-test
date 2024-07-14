@@ -261,3 +261,8 @@ F:\Work\Infini_Test\blog-test\theblogplanet\bin\Debug\net8.0\runtimes\win\lib\ne
 F:\Work\Infini_Test\blog-test\theblogplanet\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 F:\Work\Infini_Test\blog-test\theblogplanet\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 F:\Work\Infini_Test\blog-test\theblogplanet\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+F:\Work\Infini_Test\blog-test\theblogplanet\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Work\Infini_Test\blog-test\theblogplanet\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\Work\Infini_Test\blog-test\theblogplanet\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Work\Infini_Test\blog-test\theblogplanet\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Work\Infini_Test\blog-test\theblogplanet\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll

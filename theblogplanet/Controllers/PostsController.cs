@@ -11,6 +11,8 @@ using theblogplanet.Models;
 
 namespace theblogplanet.Controllers
 {
+    [Route("api/[controller]/[action]")]
+    [ApiController]
     public class PostsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -21,18 +23,21 @@ namespace theblogplanet.Controllers
         }
 
         // GET: Posts
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Post.ToListAsync());
         }
 
         // GET: Posts/SearchPosts
+        [HttpGet]
         public async Task<IActionResult> SearchPosts()
         {
             return View();
         }
 
         // GET: Posts/ShowPostSearch
+        [HttpGet]
         public async Task<IActionResult> ShowPostSearch(string SearchTitle="", string SearchContent="", string SearchAuthor="")
         {
             return View("Index", await _context.Post.
@@ -42,6 +47,7 @@ namespace theblogplanet.Controllers
         }
 
         // GET: Posts/Details/5
+        [HttpGet]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -61,6 +67,7 @@ namespace theblogplanet.Controllers
 
         // GET: Posts/Create
         [Authorize]
+        [HttpPost]
         public IActionResult Create()
         {
             return View();
@@ -85,6 +92,7 @@ namespace theblogplanet.Controllers
 
         // GET: Posts/Edit/5
         [Authorize]
+        [HttpPost]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -139,6 +147,7 @@ namespace theblogplanet.Controllers
 
         // GET: Posts/Delete/5
         [Authorize]
+        [HttpPost]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -172,6 +181,7 @@ namespace theblogplanet.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [ApiExplorerSettings(IgnoreApi = true)]
         private bool PostExists(int id)
         {
             return _context.Post.Any(e => e.PostId == id);
