@@ -1,6 +1,3 @@
-Added admin bit to users table (1 for admins)
-(Currently only a placeholder, need to implement admin functionality)
-
 Write a post form (BROKEN (Make UserId and UserName auto-set), make fields textarea)
 
 Search form (make search more flexible (order not required))
