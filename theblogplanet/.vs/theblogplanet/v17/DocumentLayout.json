@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "F:\\Work\\Infini_Test\\blog-test\\theblogplanet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C18F145-E062-4767-8F18-8E78EC7335F6}|theblogplanet.csproj|f:\\work\\infini_test\\blog-test\\theblogplanet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C18F145-E062-4767-8F18-8E78EC7335F6}|theblogplanet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7C18F145-E062-4767-8F18-8E78EC7335F6}|theblogplanet.csproj|f:\\work\\infini_test\\blog-test\\theblogplanet\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C18F145-E062-4767-8F18-8E78EC7335F6}|theblogplanet.csproj|solutionrelative:controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C18F145-E062-4767-8F18-8E78EC7335F6}|theblogplanet.csproj|f:\\work\\infini_test\\blog-test\\theblogplanet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C18F145-E062-4767-8F18-8E78EC7335F6}|theblogplanet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Work\\Infini_Test\\blog-test\\theblogplanet\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -35,13 +35,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PostsController.cs",
               "DocumentMoniker": "F:\\Work\\Infini_Test\\blog-test\\theblogplanet\\Controllers\\PostsController.cs",
               "RelativeDocumentMoniker": "Controllers\\PostsController.cs",
               "ToolTip": "F:\\Work\\Infini_Test\\blog-test\\theblogplanet\\Controllers\\PostsController.cs",
               "RelativeToolTip": "Controllers\\PostsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAADwv0UAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-14T19:05:34.112Z",
               "EditorCaption": ""

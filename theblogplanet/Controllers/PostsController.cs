@@ -11,7 +11,7 @@ using theblogplanet.Models;
 
 namespace theblogplanet.Controllers
 {
-    [Route("api/[controller]/[action]")]
+    [Route("[controller]/[action]")]
     [ApiController]
     public class PostsController : Controller
     {
@@ -67,7 +67,7 @@ namespace theblogplanet.Controllers
 
         // GET: Posts/Create
         [Authorize]
-        [HttpPost]
+        [HttpGet]
         public IActionResult Create()
         {
             return View();
@@ -92,7 +92,7 @@ namespace theblogplanet.Controllers
 
         // GET: Posts/Edit/5
         [Authorize]
-        [HttpPost]
+        [HttpGet]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -147,7 +147,7 @@ namespace theblogplanet.Controllers
 
         // GET: Posts/Delete/5
         [Authorize]
-        [HttpPost]
+        [HttpGet]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
