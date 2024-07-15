@@ -24,6 +24,7 @@ namespace theblogplanet.Controllers
 
         // GET: Posts
         [HttpGet]
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Post.ToListAsync());
@@ -31,6 +32,7 @@ namespace theblogplanet.Controllers
 
         // GET: Posts/SearchPosts
         [HttpGet]
+        [AllowAnonymous]
         public async Task<IActionResult> SearchPosts()
         {
             return View();
@@ -38,16 +40,19 @@ namespace theblogplanet.Controllers
 
         // GET: Posts/ShowPostSearch
         [HttpGet]
+        [AllowAnonymous]
         public async Task<IActionResult> ShowPostSearch(string SearchTitle="", string SearchContent="", string SearchAuthor="")
         {
-            return View("Index", await _context.Post.
-                Where(q1 => q1.PostTitle.Contains(SearchTitle)).
-                Where(q2 => q2.PostContent.Contains(SearchContent)).
-                Where(q3 => q3.UserName.Contains(SearchAuthor)).ToListAsync());
+            return View("Index", await _context.Post
+                .Where(q1 => q1.PostTitle.Contains(SearchTitle))
+                .Where(q2 => q2.PostContent.Contains(SearchContent))
+                .Where(q3 => q3.UserName.Contains(SearchAuthor))
+                .ToListAsync());
         }
 
         // GET: Posts/Details/5
         [HttpGet]
+        [AllowAnonymous]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -66,7 +71,6 @@ namespace theblogplanet.Controllers
         }
 
         // GET: Posts/Create
-        [Authorize]
         [HttpGet]
         public IActionResult Create()
         {
@@ -76,7 +80,6 @@ namespace theblogplanet.Controllers
         // POST: Posts/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("PostId,PostTitle,PostContent,UserId,UserName")] Post post)
@@ -91,7 +94,6 @@ namespace theblogplanet.Controllers
         }
 
         // GET: Posts/Edit/5
-        [Authorize]
         [HttpGet]
         public async Task<IActionResult> Edit(int? id)
         {
@@ -111,8 +113,6 @@ namespace theblogplanet.Controllers
         // POST: Posts/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-
-        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("PostId,PostTitle,PostContent,UserId,UserName")] Post post)
@@ -146,7 +146,6 @@ namespace theblogplanet.Controllers
         }
 
         // GET: Posts/Delete/5
-        [Authorize]
         [HttpGet]
         public async Task<IActionResult> Delete(int? id)
         {
@@ -166,7 +165,6 @@ namespace theblogplanet.Controllers
         }
 
         // POST: Posts/Delete/5
-        [Authorize]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -181,6 +179,7 @@ namespace theblogplanet.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [AllowAnonymous]
         [ApiExplorerSettings(IgnoreApi = true)]
         private bool PostExists(int id)
         {

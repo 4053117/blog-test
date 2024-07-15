@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "F:\\Work\\Infini_Test\\blog-test\\theblogplanet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C18F145-E062-4767-8F18-8E78EC7335F6}|theblogplanet.csproj|f:\\work\\infini_test\\blog-test\\theblogplanet\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C18F145-E062-4767-8F18-8E78EC7335F6}|theblogplanet.csproj|solutionrelative:controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C18F145-E062-4767-8F18-8E78EC7335F6}|theblogplanet.csproj|f:\\work\\infini_test\\blog-test\\theblogplanet\\authorization\\postisownerauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C18F145-E062-4767-8F18-8E78EC7335F6}|theblogplanet.csproj|solutionrelative:authorization\\postisownerauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C18F145-E062-4767-8F18-8E78EC7335F6}|theblogplanet.csproj|f:\\work\\infini_test\\blog-test\\theblogplanet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C18F145-E062-4767-8F18-8E78EC7335F6}|theblogplanet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C18F145-E062-4767-8F18-8E78EC7335F6}|theblogplanet.csproj|f:\\work\\infini_test\\blog-test\\theblogplanet\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C18F145-E062-4767-8F18-8E78EC7335F6}|theblogplanet.csproj|solutionrelative:models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C18F145-E062-4767-8F18-8E78EC7335F6}|theblogplanet.csproj|f:\\work\\infini_test\\blog-test\\theblogplanet\\authorization\\postoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C18F145-E062-4767-8F18-8E78EC7335F6}|theblogplanet.csproj|solutionrelative:authorization\\postoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Work\\Infini_Test\\blog-test\\theblogplanet\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\Work\\Infini_Test\\blog-test\\theblogplanet\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAABkAAAADAAAA",
+              "Title": "Post.cs",
+              "DocumentMoniker": "F:\\Work\\Infini_Test\\blog-test\\theblogplanet\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "Models\\Post.cs",
+              "ToolTip": "F:\\Work\\Infini_Test\\blog-test\\theblogplanet\\Models\\Post.cs",
+              "RelativeToolTip": "Models\\Post.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T19:24:44.737Z",
+              "WhenOpened": "2024-07-15T04:52:52.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PostOperations.cs",
+              "DocumentMoniker": "F:\\Work\\Infini_Test\\blog-test\\theblogplanet\\Authorization\\PostOperations.cs",
+              "RelativeDocumentMoniker": "Authorization\\PostOperations.cs",
+              "ToolTip": "F:\\Work\\Infini_Test\\blog-test\\theblogplanet\\Authorization\\PostOperations.cs",
+              "RelativeToolTip": "Authorization\\PostOperations.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T04:47:01.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PostsController.cs",
-              "DocumentMoniker": "F:\\Work\\Infini_Test\\blog-test\\theblogplanet\\Controllers\\PostsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PostsController.cs",
-              "ToolTip": "F:\\Work\\Infini_Test\\blog-test\\theblogplanet\\Controllers\\PostsController.cs",
-              "RelativeToolTip": "Controllers\\PostsController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAADwv0UAAAARAAAA",
+              "Title": "PostIsOwnerAuthorizationHandler.cs",
+              "DocumentMoniker": "F:\\Work\\Infini_Test\\blog-test\\theblogplanet\\Authorization\\PostIsOwnerAuthorizationHandler.cs",
+              "RelativeDocumentMoniker": "Authorization\\PostIsOwnerAuthorizationHandler.cs",
+              "ToolTip": "F:\\Work\\Infini_Test\\blog-test\\theblogplanet\\Authorization\\PostIsOwnerAuthorizationHandler.cs",
+              "RelativeToolTip": "Authorization\\PostIsOwnerAuthorizationHandler.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAiwCgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T19:05:34.112Z",
+              "WhenOpened": "2024-07-15T04:37:43.781Z",
               "EditorCaption": ""
             }
           ]
